@@ -24,6 +24,7 @@ include "testFunction.php";
     for ($i = 0; $i <ARR_LEN; $i++) {
         for ($j = 0 ; $j<ARR_LEN;$j++) {
             $val = $array[$i * ARR_LEN + $j];
+
             echo   "<input type='text' name='arr[]' value='$val'>";
         }
         echo "<br>" ;
