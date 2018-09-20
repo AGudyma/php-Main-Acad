@@ -5,7 +5,7 @@
  * Date: 17.09.2018
  * Time: 19:22
  */
-include_once 'BaseUser.php';
+namespace Abst;
 class Admin extends BaseUser
 {
     public function getPermitions()
@@ -14,7 +14,7 @@ class Admin extends BaseUser
 
         return [
             'CREATE_USER' ,
-            'DELETE_USER0' ,
+            'DELETE_USER' ,
 
         ];
     }

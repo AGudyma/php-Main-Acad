@@ -2,15 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee69e412-d7c5-4977-9581-03c1e81b0366" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/From_tutorial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Tutorial.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_Tutorial2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/N7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arrayLab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testFunction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/BaseUser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/SuperAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/inteface/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/inteface/ILoggeble.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/inteface/IPermitted.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Abst/inteface/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab with class/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab with class/Workers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab with class/lab_class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab with class/logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/Counter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/Paginator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/forum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics_php/stat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/except/exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Новая папка/L5.php" beforeDir="false" afterPath="$PROJECT_DIR$/Новая папка/L5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/From_tutorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/From_tutorial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Tutorial.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/HTML_Tutorial.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_Tutorial2.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/HTML_Tutorial2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N3.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/N3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N4.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/N4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N6.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/N6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/N7.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/N7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arrayLab.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/arrayLab.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git FAQ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/git FAQ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testFunction.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics_php/testFunction.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,67 +48,110 @@
     <session id="-1143397096">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.51" value="2" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.89" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="php" value="10" />
+          <entry key="php" value="93" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="10" />
+          <entry key="PHP" value="93" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="12" />
           <entry key="html" value="225" />
-          <entry key="php" value="4087" />
+          <entry key="php" value="8491" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="235" />
-          <entry key="PHP" value="4077" />
+          <entry key="HTML" value="236" />
+          <entry key="PHP" value="8480" />
+          <entry key="PLAIN_TEXT" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="14" />
+          <entry key="PHP Interface.type" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="localhost" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/N4.php">
+        <entry file="file://$PROJECT_DIR$/test_User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/From_tutorial.php">
+        <entry file="file://$PROJECT_DIR$/except/exception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#191#224#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testFunction.php">
+        <entry file="file://$PROJECT_DIR$/Abst/inteface/ILoggeble.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abst/BaseUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abst/Admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Abst/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -114,6 +183,43 @@
         <option value="$PROJECT_DIR$/HTML_Tutorial2.php" />
         <option value="$PROJECT_DIR$/testFunction.php" />
         <option value="$PROJECT_DIR$/From_tutorial.php" />
+        <option value="$PROJECT_DIR$/T1.php" />
+        <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/N8.php" />
+        <option value="$PROJECT_DIR$/Admin.php" />
+        <option value="$PROJECT_DIR$/forum.php" />
+        <option value="$PROJECT_DIR$/Person.php" />
+        <option value="$PROJECT_DIR$/Paginator.php" />
+        <option value="$PROJECT_DIR$/Counter.php" />
+        <option value="$PROJECT_DIR$/Lab with class/Worker.php" />
+        <option value="$PROJECT_DIR$/Lab with class/Workers.php" />
+        <option value="$PROJECT_DIR$/Lab with class/lab_class.php" />
+        <option value="$PROJECT_DIR$/stat.php" />
+        <option value="$PROJECT_DIR$/Lab with class/log.txt" />
+        <option value="$PROJECT_DIR$/Lab with class/logger.php" />
+        <option value="$PROJECT_DIR$/Lab with class/Log.php" />
+        <option value="$PROJECT_DIR$/AbsrtactClass.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/BaseUser.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/Admin.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/SuperAdmin.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/ILoggeble.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/IPermitted.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/User.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/NewUser.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/NewAdmin.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/test_User.php" />
+        <option value="$PROJECT_DIR$/Abstrasct/inteface/ILoggeble.php" />
+        <option value="$PROJECT_DIR$/Abst/BaseUser.php" />
+        <option value="$PROJECT_DIR$/Abst/SuperAdmin.php" />
+        <option value="$PROJECT_DIR$/Abst/User.php" />
+        <option value="$PROJECT_DIR$/Abst/inteface/User.php" />
+        <option value="$PROJECT_DIR$/Abst/inteface/IPermitted.php" />
+        <option value="$PROJECT_DIR$/Abst/inteface/ILoggeble.php" />
+        <option value="$PROJECT_DIR$/Abst/inteface/Admin.php" />
+        <option value="$PROJECT_DIR$/Abst/test_User.php" />
+        <option value="$PROJECT_DIR$/Abst/Admin.php" />
+        <option value="$PROJECT_DIR$/test_User.php" />
+        <option value="$PROJECT_DIR$/except/exception.php" />
       </list>
     </option>
   </component>
@@ -125,10 +231,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="244" />
-    <option name="width" value="1313" />
-    <option name="height" value="475" />
+    <option name="x" value="19" />
+    <option name="y" value="170" />
+    <option name="width" value="1322" />
+    <option name="height" value="543" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +249,22 @@
               <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
               <item name="localhost" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localhost" type="462c0819:PsiDirectoryNode" />
+              <item name="Abst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="localhost" type="b2602c69:ProjectViewProjectNode" />
+              <item name="localhost" type="462c0819:PsiDirectoryNode" />
+              <item name="Abst" type="462c0819:PsiDirectoryNode" />
+              <item name="inteface" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,10 +273,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\localhost\basics_php" />
       <recent name="C:\OSPanel\domains\localhost" />
+      <recent name="C:\OSPanel\domains\localhost\Abstrasct\inteface" />
       <recent name="C:\OSPanel\domains\localhost\Новая папка" />
     </key>
   </component>
@@ -175,36 +296,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.arrayLab.php">
-    <configuration name="L5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Новая папка/L5.php">
+  <component name="RunManager" selected="PHP Script.exception.php">
+    <configuration name="test_User.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/localhost/Abstrasct/test_User.php">
       <method v="2" />
     </configuration>
-    <configuration name="N3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/N3.php">
+    <configuration name="exception.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/except/exception.php">
       <method v="2" />
     </configuration>
-    <configuration name="N4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/N4.php">
+    <configuration name="lab_class.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Lab with class/lab_class.php">
       <method v="2" />
     </configuration>
-    <configuration name="N6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/N6.php">
+    <configuration name="logger.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Lab with class/logger.php">
       <method v="2" />
     </configuration>
-    <configuration name="arrayLab.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/arrayLab.php">
+    <configuration name="stat.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/basics_php/stat.php">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.N3.php" />
-      <item itemvalue="PHP Script.N4.php" />
-      <item itemvalue="PHP Script.L5.php" />
-      <item itemvalue="PHP Script.N6.php" />
-      <item itemvalue="PHP Script.arrayLab.php" />
+      <item itemvalue="PHP Script.stat.php" />
+      <item itemvalue="PHP Script.lab_class.php" />
+      <item itemvalue="PHP Script.logger.php" />
+      <item itemvalue="JavaScript Debug.test_User.php" />
+      <item itemvalue="PHP Script.exception.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.arrayLab.php" />
-        <item itemvalue="PHP Script.N6.php" />
-        <item itemvalue="PHP Script.L5.php" />
-        <item itemvalue="PHP Script.N4.php" />
-        <item itemvalue="PHP Script.N3.php" />
+        <item itemvalue="PHP Script.exception.php" />
+        <item itemvalue="JavaScript Debug.test_User.php" />
+        <item itemvalue="PHP Script.logger.php" />
+        <item itemvalue="PHP Script.stat.php" />
+        <item itemvalue="PHP Script.lab_class.php" />
       </list>
     </recent_temporary>
   </component>
@@ -220,24 +341,29 @@
       <updated>1534674909775</updated>
       <workItem from="1534674911322" duration="16207000" />
       <workItem from="1534954926137" duration="7305000" />
-      <workItem from="1535386211951" duration="8768000" />
+      <workItem from="1535386211951" duration="9442000" />
+      <workItem from="1535908136662" duration="5614000" />
+      <workItem from="1535992246149" duration="6524000" />
+      <workItem from="1536249879897" duration="8234000" />
+      <workItem from="1536510913544" duration="13637000" />
+      <workItem from="1536692609631" duration="309000" />
+      <workItem from="1537199927902" duration="9092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32280000" />
+    <option name="totallyTimeSpent" value="76364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22617246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49546143" visible="true" weight="0.3229508" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969743" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49128368" weight="0.23934427" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" weight="0.43760398" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,12 +371,35 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045386" side_tool="true" visible="true" weight="0.3229508" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50871634" side_tool="true" weight="0.49295774" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32906765" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49128368" weight="0.23934427" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49546143" weight="0.43760398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50871634" side_tool="true" weight="0.49295774" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -259,82 +408,251 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/N3.php">
+    <entry file="file://$PROJECT_DIR$/basics_php/N3.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Новая папка/L5.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#6#15#0#PHP" expanded="true" />
-            <element signature="n#getFruitName#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/N6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#1120#1208#1#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/N7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arrayLab.php">
+    <entry file="file://$PROJECT_DIR$/basics_php/arrayLab.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Tutorial.php">
+    <entry file="file://$PROJECT_DIR$/basics_php/HTML_Tutorial.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_Tutorial2.php">
+    <entry file="file://$PROJECT_DIR$/basics_php/HTML_Tutorial2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9">
           <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/N4.php">
+    <entry file="file://$PROJECT_DIR$/N8.php" />
+    <entry file="file://$PROJECT_DIR$/basics_php/Paginator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1781">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab with class/Worker.php" />
+    <entry file="file://$PROJECT_DIR$/basics_php/forum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/From_tutorial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/T1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/N7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/N6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/N4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testFunction.php">
+    <entry file="file://$PROJECT_DIR$/basics_php/testFunction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/From_tutorial.php">
+    <entry file="file://$PROJECT_DIR$/Lab with class/Workers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#191#224#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="246">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab with class/lab_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/log.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab with class/Log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-332">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/Counter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/stat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab with class/log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-column="3" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab with class/logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Новая папка/AbstractClass.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AbsrtactClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basics_php/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/SuperAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/inteface/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/inteface/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/inteface/IPermitted.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/inteface/ILoggeble.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/BaseUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Abst/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/except/exception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>

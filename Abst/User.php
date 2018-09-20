@@ -5,6 +5,7 @@
  * Date: 17.09.2018
  * Time: 19:21
  */
+namespace Abst;
 include_once 'BaseUser.php';
 class User extends BaseUser
 {

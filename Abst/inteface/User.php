@@ -5,8 +5,8 @@
  * Date: 17.09.2018
  * Time: 19:54
  */
-
-class NewUser implements ILoggeble
+namespace Abst\Impl;
+class User implements ILoggeble
 
 {
 

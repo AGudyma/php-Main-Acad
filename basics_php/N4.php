@@ -1,4 +1,4 @@
-<form action="/N4.php">
+<form action="/basics_php/N4.php">
    Input: <input type="text" name="input"><br>
 <!--<!--    Last name: <input type="text" name="lname"><br>-->-->
 <!--    <input type="submit" value="Submit">-->

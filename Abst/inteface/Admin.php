@@ -5,8 +5,8 @@
  * Date: 17.09.2018
  * Time: 19:55
  */
-
-class NewAdmin implements ILoggeble,IPermitted
+namespace Abst\Impl;
+class Admin implements ILoggeble,IPermitted
 {
 
     public function login()

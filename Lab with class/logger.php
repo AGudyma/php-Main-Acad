@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 09.09.2018
- * Time: 22:32
- */
+include_once 'Log.php';
+$logEntry = new Log('Default entry ');
+$logEntry->saveToLog();
+
+Log::showLastEntry(3);

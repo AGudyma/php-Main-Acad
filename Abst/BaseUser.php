@@ -5,7 +5,7 @@
  * Date: 17.09.2018
  * Time: 19:18
  */
-
+namespace Abst;
 abstract class BaseUser
 {
     public function login()
