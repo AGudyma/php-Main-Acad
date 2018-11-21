@@ -1,7 +1,3 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 24.09.2018
- * Time: 20:08
- */
+echo 'Response';
+var_dump($_REQUEST);

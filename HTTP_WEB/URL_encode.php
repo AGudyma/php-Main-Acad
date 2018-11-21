@@ -1,7 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 24.09.2018
- * Time: 19:31
- */
+$queryString = 'name = Ivanov Ivan Ivanovich&question="Как тебя зовут?"';
+echo $encoded = urlencode($queryString) . PHP_EOL;
+echo urldecode($encoded);

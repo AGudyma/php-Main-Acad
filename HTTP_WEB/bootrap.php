@@ -1,7 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+
+<form method="post"  action="response.php"><br>
+
+    <input type="text" name="question[]"><br>
+    <input type="checkbox" name="question[]" value="1"> 1 <br>
+    <input type="checkbox" name="question[]" value="2"> 2<br>
+    <input type="checkbox" name="question[]" value="3"> 3<br>
+    <input type="checkbox" name="question[]" value="4"> 4<br>
+    <input type="checkbox" name="question[]" value="5"> 5<br>
+
+
+    <input type="submit">
+    <br>
+<!---->
+<!--    <form>-->
+<!--        <div class="form-group">-->
+<!--            <label for="exampleInputEmail1">Email address</label>-->
+<!--            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">-->
+<!--            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+<!--        </div>-->
+<!--        <div class="form-group">-->
+<!--            <label for="exampleInputPassword1">Password</label>-->
+<!--            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">-->
+<!--        </div>-->
+<!--        <div class="form-group form-check">-->
+<!--            <input type="checkbox" class="form-check-input" id="exampleCheck1">-->
+<!--            <label class="form-check-label" for="exampleCheck1">Check me out</label>-->
+<!--        </div>-->
+<!--        <button type="submit" class="btn btn-primary">Submit</button>-->
+<!--    </form>-->
+</form>
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 24.09.2018
- * Time: 20:12
- */
+ var_dump($_REQUEST);
+?>
+</body>
+
+</html>

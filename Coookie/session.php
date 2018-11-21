@@ -1,7 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 01.10.2018
- * Time: 20:24
- */
+session_start();
+$_SESSION['sessionName'] = 'Name';
+$_SESSION['id'] = 1;
+var_dump($_SESSION);
+
+

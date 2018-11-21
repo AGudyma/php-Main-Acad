@@ -1,7 +1,11 @@
+
+        <form method="post"  action="response.php">
+            <input type="text" name="question">
+            <br>
+            <input type="submit">
+        </form>
+
+
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 24.09.2018
- * Time: 19:35
- */
+var_dump($_REQUEST);
+?>

@@ -1,7 +1,9 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: napal
- * Date: 20.10.2018
- * Time: 22:45
- */
+$fp = fopen('somefile.txt', 'r');
+if (!$fp) {
+    echo 'Could not open file somefile.txt';
+}
+while (false !== ($char = fgetc($fp))) {
+    echo "$char\n";
+}

@@ -9,7 +9,16 @@
 <h1>My first PHP page</h1>
 
 <?php
-echo "Hello World!";
+include_once 'ImageDemonstrator.php';
+//echo "Hello World!";
+//$file = file_get_contents('./text.txt', FILE_USE_INCLUDE_PATH);
+//echo $file;
+
+$files = new ImageDemonstrator();
+$files->demonstrate();
+$files->imageList();
+//var_dump($fileList);
+
 ?>
 
 </body>
